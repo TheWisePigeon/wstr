@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.center = exports.title = exports.capitalize = void 0;
+exports.zfill = exports.center = exports.title = exports.capitalize = void 0;
 function capitalize(str) {
     let result = str[0].toUpperCase();
     for (let i = 1; i < str.length; i++) {
@@ -23,3 +23,7 @@ function center(str, symbol, count) {
     return `${symbol.repeat(count)}${str}${symbol.repeat(count)}`;
 }
 exports.center = center;
+function zfill(str, fixed_len) {
+    return `${("0").repeat(fixed_len - str.length)}${str}`;
+}
+exports.zfill = zfill;

@@ -1,5 +1,5 @@
 {
-  "name": "wstr",
+  "name": "pstr",
   "version": "1.0.0",
   "description": "A Javascript port of python's string methods",
   "main": "index.js",
