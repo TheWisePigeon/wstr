@@ -1,0 +1,23 @@
+{
+  "name": "wstr",
+  "version": "1.0.0",
+  "description": "A Javascript port of python's string methods",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"tsc && npm link"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheWisePigeon/wstr.git"
+  },
+  "author": "TheWisePigeon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheWisePigeon/wstr/issues"
+  },
+  "homepage": "https://github.com/TheWisePigeon/wstr#readme",
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  }
+}
