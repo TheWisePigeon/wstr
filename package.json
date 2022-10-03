@@ -1,6 +1,6 @@
 {
   "name": "pstr",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Javascript port of python's string methods",
   "main": "index.js",
   "scripts": {
